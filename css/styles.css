@@ -5,10 +5,25 @@ body {
   font-weight: 400;
 }
 
+h1 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
 #title {
 background-color:#ff4c68;
 font-family: "Montserrat";
 color: #ffffff;
+}
+
+.btn-download {
+  margin: 10% 3% 5% 0;
+}
+
+.container-fluid {
+padding: 3% 15%;
 }
 
 .navbar {
@@ -28,40 +43,18 @@ padding-left: 0;
   margin: 0 18px;
 }
 
-h1 {
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  color: #ffffff;
-}
-
-.container-fluid {
-padding: 3% 15%;
-  }
-
-.btn-download {
-  margin: 10% 3% 5% 0;
-}
-
 .title_img {
   width: 60%;
   transform: rotate(25deg);
   margin-left: 4rem;
 }
 
+
 /* Feature Section */
 
 #features {
   padding: 7% 15%;
   text-align: center;
-}
-
-.feature-icon {
-  color: #ef8172;
-}
-
-.feature-icon:hover {
-  color: #ff4c68;
 }
 
 #features h3 {
@@ -74,8 +67,16 @@ padding: 3% 15%;
   font-size: 1.1rem;
 }
 
-/* Testimonials Section */
+.feature-icon {
+  color: #ef8172;
+}
 
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+
+/* Testimonials Section */
 
 #testimonials {
   background-color: #ef8172;
@@ -83,18 +84,19 @@ padding: 3% 15%;
   text-align: center;
 }
 
-.testimonial-image {
-  width: 10%;
-  border-radius: 100%;
+#testimonials h2 {
+  font-weight: 900;
 }
 
 .carousel-item {
   padding: 7% 15%;
 }
 
-#testimonials h2 {
-  font-weight: 900;
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
 }
+
 
 /* Press Section */
 
@@ -116,10 +118,6 @@ padding: 3% 15%;
   margin-top: 7%;
 }
 
-.card-deck {
-  margin: 3% 5%;
-}
-
 #pricing h2 {
   font-weight: 900;
   font-size: 2rem;
@@ -132,6 +130,10 @@ padding: 3% 15%;
 
 #pricing p {
   color: #8f8f8f;
+}
+
+.card-deck {
+  margin: 3% 5%;
 }
 
 .card-deck button {
@@ -172,3 +174,25 @@ padding: 3% 15%;
 #footer p {
     line-height: 50px;
 }
+
+
+/* Media Query */
+
+@media only screen
+  and (max-width: 991px) {
+    h1 {
+      text-align: center;
+    }
+    .col-lg-6 {
+      text-align: center;
+    }
+    .card {
+      margin-top: 20px;
+    }
+    .title_img {
+      width: 50%;
+      transform: rotate(0deg);
+      position: static;
+      margin: 20px auto;
+    }
+  }
