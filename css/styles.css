@@ -1,14 +1,23 @@
+/* Common Settings */
+.font-m {
+  font-family: 'Montserrat', sans-serif;
+}
 
+.padding-7-15 {
+    padding: 7% 15%;
+}
+
+.text-bold {
+    font-weight: 900;
+}
 
 /* Title Section */
 
 body {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
 
 h1 {
-  font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
   color: #ffffff;
@@ -16,7 +25,6 @@ h1 {
 
 #title {
 background-color:#ff4c68;
-font-family: "Montserrat";
 color: #ffffff;
 }
 
@@ -55,12 +63,10 @@ padding-left: 0;
 /* Feature Section */
 
 #features {
-  padding: 7% 15%;
   text-align: center;
 }
 
 #features h3 {
-  font-weight: 900;
   margin-top: 5%;
 }
 
@@ -87,11 +93,6 @@ padding-left: 0;
 }
 
 #testimonials h2 {
-  font-weight: 900;
-}
-
-.carousel-item {
-  padding: 7% 15%;
 }
 
 .testimonial-image {
@@ -121,12 +122,10 @@ padding-left: 0;
 }
 
 #pricing h2 {
-  font-weight: 900;
   font-size: 2rem;
 }
 
 #pricing h3 {
-  font-weight: 900;
   font-size: 1.5rem;
 }
 
@@ -149,11 +148,9 @@ padding-left: 0;
   text-align: center;
   background-color:#ff4c68;
   color: #ffffff;
-  padding: 7% 15%;
 }
 
 #cta h3 {
-  font-weight: 900;
   font-size: 2rem;
 }
 
